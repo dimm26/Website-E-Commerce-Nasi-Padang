@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Padang Express — Kehangatan Tradisi Minang, Antar 30 Menit</title>
+  <meta name="description" content="Pesan Nasi Padang otentik secara online. Rendang daging, gulai tambusu, ayam pop dan menu khas Minang tersedia fresh, siap antar dalam 30 menit ke rumah Anda." />
+  <meta name="keywords" content="nasi padang, rendang, gulai, ayam pop, pesan antar, makanan minang, padang express" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ======================== NAVBAR ======================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo" id="nav-logo">
+        <span class="logo-icon">🍛</span>
+        <span class="logo-text">Padang<span class="logo-accent">Express</span></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#menu" class="nav-link">Menu Utama</a></li>
+        <li><a href="#paket" class="nav-link">Paket Bundling</a></li>
+        <li><a href="#builder" class="nav-link">Nasi Bungkus</a></li>
+        <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="search-wrapper" id="search-wrapper">
+          <button class="search-toggle" id="search-toggle" aria-label="Buka pencarian">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </button>
+          <div class="search-expand" id="search-expand">
+            <input type="text" class="search-input" id="search-input" placeholder="Cari menu favorit..." />
+          </div>
+        </div>
+        <button class="cart-btn" id="cart-btn" aria-label="Keranjang belanja">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+          <span class="cart-badge" id="cart-badge">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======================== HERO SECTION ======================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-decor"></div>
+    <div class="hero-container">
+      <div class="hero-left" id="hero-left">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>🕐 Buka Setiap Hari 07.00 – 22.00</span>
+        </div>
+        <h1 class="hero-headline">
+          Kehangatan Tradisi <em>Minang,</em><br />Siap Antar dalam<br />
+          <span class="headline-accent">30 Menit</span>
+        </h1>
+        <p class="hero-sub">
+          Nikmati kelezatan <strong>Rendang Daging Otentik</strong> dan <strong>Gulai Tambusu</strong> yang dimasak dengan 40+ rempah pilihan — langsung di meja makan Anda.
+        </p>
+        <div class="hero-ctas">
+          <a href="#menu" class="btn btn-primary" id="cta-order">
+            <span>Pesan Sekarang</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#builder" class="btn btn-ghost">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            Rancang Bungkus
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">10K+</span>
+            <span class="stat-label">Pelanggan Puas</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">4.9★</span>
+            <span class="stat-label">Rating Google</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">30'</span>
+            <span class="stat-label">Garansi Antar</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right" id="hero-right">
+        <div class="hero-plate-wrapper">
+          <div class="plate-glow"></div>
+          <div class="plate-ring ring-1"></div>
+          <div class="plate-ring ring-2"></div>
+          <img src="hero_nasi_padang.png" alt="Nasi Padang Komplit Padang Express" class="hero-plate-img" id="hero-plate" />
+          <div class="floating-badge badge-rendang">
+            <span>🥩</span> Rendang Sapi
+          </div>
+          <div class="floating-badge badge-fresh">
+            <span>✅</span> Halal Certified
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#FDFBF7"/></svg>
+    </div>
+  </section>
+
+  <!-- ======================== FEATURES STRIP ======================== -->
+  <section class="features-strip" id="features">
+    <div class="features-container">
+      <div class="feature-item">
+        <div class="feature-icon">🚴</div>
+        <div>
+          <h3>Gratis Ongkir</h3>
+          <p>Min. order Rp 50.000</p>
+        </div>
+      </div>
+      <div class="feature-divider"></div>
+      <div class="feature-item">
+        <div class="feature-icon">🔥</div>
+        <div>
+          <h3>Fresh Dimasak</h3>
+          <p>Rempah 40+ pilihan</p>
+        </div>
+      </div>
+      <div class="feature-divider"></div>
+      <div class="feature-item">
+        <div class="feature-icon">🕐</div>
+        <div>
+          <h3>30 Menit Sampai</h3>
+          <p>Garansi ketepatan waktu</p>
+        </div>
+      </div>
+      <div class="feature-divider"></div>
+      <div class="feature-item">
+        <div class="feature-icon">🌿</div>
+        <div>
+          <h3>100% Halal</h3>
+          <p>Bersertifikat MUI</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== MENU SECTION ======================== -->
+  <section class="menu-section" id="menu">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-label">— Menu Pilihan —</span>
+        <h2 class="section-title">Cita Rasa Minang <em>Terbaik</em></h2>
+        <p class="section-desc">Dimasak setiap pagi dengan resep turun-temurun, menggunakan bahan-bahan segar pilihan dari tanah Minangkabau.</p>
+      </div>
+
+      <!-- Category Filter -->
+      <div class="category-filter" id="category-filter">
+        <button class="cat-btn active" data-cat="semua" id="cat-semua">
+          <span class="cat-icon">🍽️</span> Semua
+        </button>
+        <button class="cat-btn" data-cat="daging" id="cat-daging">
+          <span class="cat-icon">🥩</span> Daging
+        </button>
+        <button class="cat-btn" data-cat="ayam" id="cat-ayam">
+          <span class="cat-icon">🍗</span> Ayam
+        </button>
+        <button class="cat-btn" data-cat="seafood" id="cat-seafood">
+          <span class="cat-icon">🦐</span> Seafood
+        </button>
+        <button class="cat-btn" data-cat="sayur" id="cat-sayur">
+          <span class="cat-icon">🥬</span> Sayur & Sambal
+        </button>
+        <button class="cat-btn" data-cat="paket" id="cat-paket">
+          <span class="cat-icon">📦</span> Paket Praktis
+        </button>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="menu-grid" id="menu-grid">
+
+        <!-- Rendang Daging -->
+        <div class="food-card" data-cat="daging" id="card-rendang">
+          <div class="card-img-wrapper">
+            <img src="rendang_card.png" alt="Rendang Daging Sapi" class="card-img" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">Lihat Detail</button>
+            </div>
+            <div class="card-badge-new">Terlaris</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <div class="spice-level" title="Level pedas 2">
+                <span class="chili active">🌶️</span>
+                <span class="chili active">🌶️</span>
+                <span class="chili">🌶️</span>
+              </div>
+              <span class="card-category-tag">Daging</span>
+            </div>
+            <h3 class="card-name">Rendang Daging Sapi</h3>
+            <p class="card-desc">Daging sapi pilihan dimasak 6 jam dalam santan kelapa & 17 rempah. Tekstur empuk, aroma khas Minang.</p>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-old">Rp 35.000</span>
+                <span class="price-main">Rp 28.000</span>
+              </div>
+              <button class="add-to-cart-btn" data-id="rendang" data-name="Rendang Daging Sapi" data-price="28000" id="add-rendang" aria-label="Tambah Rendang ke keranjang">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gulai Tunjang -->
+        <div class="food-card" data-cat="daging" id="card-gulai">
+          <div class="card-img-wrapper">
+            <img src="gulai_tunjang_card.png" alt="Gulai Tunjang" class="card-img" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">Lihat Detail</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <div class="spice-level" title="Level pedas 1">
+                <span class="chili active">🌶️</span>
+                <span class="chili">🌶️</span>
+                <span class="chili">🌶️</span>
+              </div>
+              <span class="card-category-tag">Daging</span>
+            </div>
+            <h3 class="card-name">Gulai Tunjang</h3>
+            <p class="card-desc">Kikil sapi dimasak dalam kuah gulai kuning kental, bumbu kunyit & serai segar. Lembut melting di mulut.</p>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-main">Rp 25.000</span>
+              </div>
+              <button class="add-to-cart-btn" data-id="gulai" data-name="Gulai Tunjang" data-price="25000" id="add-gulai" aria-label="Tambah Gulai Tunjang ke keranjang">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ayam Pop -->
+        <div class="food-card" data-cat="ayam" id="card-ayam-pop">
+          <div class="card-img-wrapper">
+            <img src="ayam_pop_card.png" alt="Ayam Pop" class="card-img" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">Lihat Detail</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <div class="spice-level" title="Level pedas 2">
+                <span class="chili active">🌶️</span>
+                <span class="chili active">🌶️</span>
+                <span class="chili">🌶️</span>
+              </div>
+              <span class="card-category-tag">Ayam</span>
+            </div>
+            <h3 class="card-name">Ayam Pop</h3>
+            <p class="card-desc">Ayam kampung rebus lembut gaya Padang, disajikan dengan sambal balado merah menyala & kerupuk jangek.</p>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-main">Rp 22.000</span>
+              </div>
+              <button class="add-to-cart-btn" data-id="ayam-pop" data-name="Ayam Pop" data-price="22000" id="add-ayam-pop" aria-label="Tambah Ayam Pop ke keranjang">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ayam Goreng -->
+        <div class="food-card" data-cat="ayam" id="card-ayam-goreng">
+          <div class="card-img-wrapper">
+            <img src="ayam_goreng_card.png" alt="Ayam Goreng Padang" class="card-img" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">Lihat Detail</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <div class="spice-level" title="Level pedas 1">
+                <span class="chili active">🌶️</span>
+                <span class="chili">🌶️</span>
+                <span class="chili">🌶️</span>
+              </div>
+              <span class="card-category-tag">Ayam</span>
+            </div>
+            <h3 class="card-name">Ayam Goreng Padang</h3>
+            <p class="card-desc">Ayam digoreng krispi dengan bumbu kuning & lengkuas, renyah di luar, juicy di dalam. Cocok semua usia.</p>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-main">Rp 20.000</span>
+              </div>
+              <button class="add-to-cart-btn" data-id="ayam-goreng" data-name="Ayam Goreng Padang" data-price="20000" id="add-ayam-goreng" aria-label="Tambah Ayam Goreng ke keranjang">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ayam Bakar -->
+        <div class="food-card" data-cat="ayam" id="card-ayam-bakar">
+          <div class="card-img-wrapper">
+            <img src="ayam_bakar_card.png" alt="Ayam Bakar Bumbu Padang" class="card-img" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">Lihat Detail</button>
+            </div>
+            <div class="card-badge-new" style="background: linear-gradient(135deg,#FF8C00,#e67300);">Favorit</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <div class="spice-level" title="Level pedas 3">
+                <span class="chili active">🌶️</span>
+                <span class="chili active">🌶️</span>
+                <span class="chili active">🌶️</span>
+              </div>
+              <span class="card-category-tag">Ayam</span>
+            </div>
+            <h3 class="card-name">Ayam Bakar Bumbu</h3>
+            <p class="card-desc">Dibakar dengan arang pilihan, dilumuri bumbu kecap & rempah khas Minang. Smoke flavor autentik terasa.</p>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-main">Rp 24.000</span>
+              </div>
+              <button class="add-to-cart-btn" data-id="ayam-bakar" data-name="Ayam Bakar Bumbu" data-price="24000" id="add-ayam-bakar" aria-label="Tambah Ayam Bakar ke keranjang">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dendeng Balado -->
+        <div class="food-card" data-cat="daging" id="card-dendeng">
+          <div class="card-img-wrapper">
+            <div class="card-img-placeholder">
+              <span>🥩</span>
+              <p>Dendeng Balado</p>
+            </div>
+            <div class="card-overlay">
+              <button class="quick-view-btn">Lihat Detail</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <div class="spice-level" title="Level pedas 3">
+                <span class="chili active">🌶️</span>
+                <span class="chili active">🌶️</span>
+                <span class="chili active">🌶️</span>
+              </div>
+              <span class="card-category-tag">Daging</span>
+            </div>
+            <h3 class="card-name">Dendeng Balado</h3>
+            <p class="card-desc">Irisan tipis daging sapi kering digoreng garing, dilumuri sambal balado merah pedas. Tekstur unik, rasa kuat.</p>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-main">Rp 30.000</span>
+              </div>
+              <button class="add-to-cart-btn" data-id="dendeng" data-name="Dendeng Balado" data-price="30000" id="add-dendeng" aria-label="Tambah Dendeng Balado ke keranjang">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sambal Ijo -->
+        <div class="food-card" data-cat="sayur" id="card-sambal">
+          <div class="card-img-wrapper">
+            <div class="card-img-placeholder" style="background: linear-gradient(135deg, #2d5a1b 0%, #4a7c2f 100%);">
+              <span>🥬</span>
+              <p>Sambal Ijo</p>
+            </div>
+            <div class="card-overlay">
+              <button class="quick-view-btn">Lihat Detail</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <div class="spice-level" title="Level pedas 2">
+                <span class="chili active">🌶️</span>
+                <span class="chili active">🌶️</span>
+                <span class="chili">🌶️</span>
+              </div>
+              <span class="card-category-tag">Sayur</span>
+            </div>
+            <h3 class="card-name">Sambal Ijo Padang</h3>
+            <p class="card-desc">Cabai hijau segar diulek kasar dengan tomat hijau & bawang. Segar, pedas, asam — pelengkap wajib.</p>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-main">Rp 8.000</span>
+              </div>
+              <button class="add-to-cart-btn" data-id="sambal" data-name="Sambal Ijo Padang" data-price="8000" id="add-sambal" aria-label="Tambah Sambal Ijo ke keranjang">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Udang Balado -->
+        <div class="food-card" data-cat="seafood" id="card-udang">
+          <div class="card-img-wrapper">
+            <div class="card-img-placeholder" style="background: linear-gradient(135deg, #c0392b 0%, #e74c3c 100%);">
+              <span>🦐</span>
+              <p>Udang Balado</p>
+            </div>
+            <div class="card-overlay">
+              <button class="quick-view-btn">Lihat Detail</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <div class="spice-level" title="Level pedas 3">
+                <span class="chili active">🌶️</span>
+                <span class="chili active">🌶️</span>
+                <span class="chili active">🌶️</span>
+              </div>
+              <span class="card-category-tag">Seafood</span>
+            </div>
+            <h3 class="card-name">Udang Balado</h3>
+            <p class="card-desc">Udang segar digoreng krispi kemudian dilumuri bumbu balado merah pedas yang kaya rasa. Gurih & juicy.</p>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-main">Rp 32.000</span>
+              </div>
+              <button class="add-to-cart-btn" data-id="udang" data-name="Udang Balado" data-price="32000" id="add-udang" aria-label="Tambah Udang Balado ke keranjang">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Paket Komplit -->
+        <div class="food-card card-paket" data-cat="paket" id="card-paket">
+          <div class="card-img-wrapper">
+            <div class="card-img-placeholder" style="background: linear-gradient(135deg, #8B0000 0%, #FF8C00 100%);">
+              <span>📦</span>
+              <p>Paket Komplit</p>
+            </div>
+            <div class="card-overlay">
+              <button class="quick-view-btn">Lihat Detail</button>
+            </div>
+            <div class="card-badge-new" style="background: linear-gradient(135deg,#8B0000,#c00);">Hemat 20%</div>
+          </div>
+          <div class="card-body">
+            <div class="card-meta">
+              <div class="spice-level" title="Bisa diatur">
+                <span style="font-size:11px;color:#888;font-family:'Plus Jakarta Sans',sans-serif;">Pedas custom</span>
+              </div>
+              <span class="card-category-tag">Paket</span>
+            </div>
+            <h3 class="card-name">Paket Nasi Padang Komplit</h3>
+            <p class="card-desc">Nasi + Rendang + Ayam + Gulai + Sambal Ijo + Kerupuk. Makan kenyang, bayar hemat untuk 1 orang.</p>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-old">Rp 75.000</span>
+                <span class="price-main">Rp 59.000</span>
+              </div>
+              <button class="add-to-cart-btn" data-id="paket-komplit" data-name="Paket Nasi Padang Komplit" data-price="59000" id="add-paket" aria-label="Tambah Paket ke keranjang">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- end menu-grid -->
+    </div>
+  </section>
+
+  <!-- ======================== CUSTOM BUILDER SECTION ======================== -->
+  <section class="builder-section" id="builder">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-label">— Fitur Eksklusif —</span>
+        <h2 class="section-title">Rancang <em>Nasi Bungkusmu</em></h2>
+        <p class="section-desc">Pilih sendiri isi bungkusanmu. Kamu bebas kombinasikan sesuai selera!</p>
+      </div>
+
+      <div class="builder-wrapper">
+        <div class="builder-steps">
+
+          <!-- Step 1: Karbohidrat -->
+          <div class="builder-step" id="step-karbo">
+            <div class="step-header">
+              <div class="step-num">1</div>
+              <h3>Pilih Karbohidrat</h3>
+            </div>
+            <div class="step-options">
+              <button class="step-opt" data-step="karbo" data-val="Nasi Putih" data-emoji="🍚" id="opt-nasi">
+                <span class="opt-emoji">🍚</span>
+                <span>Nasi Putih</span>
+              </button>
+              <button class="step-opt" data-step="karbo" data-val="Nasi Merah" data-emoji="🍙" id="opt-nasi-merah">
+                <span class="opt-emoji">🍙</span>
+                <span>Nasi Merah</span>
+              </button>
+              <button class="step-opt" data-step="karbo" data-val="Lontong" data-emoji="🫓" id="opt-lontong">
+                <span class="opt-emoji">🫓</span>
+                <span>Lontong</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 2: Lauk Utama -->
+          <div class="builder-step" id="step-lauk">
+            <div class="step-header">
+              <div class="step-num">2</div>
+              <h3>Pilih Lauk Utama</h3>
+            </div>
+            <div class="step-options">
+              <button class="step-opt" data-step="lauk" data-val="Rendang" data-emoji="🥩" id="opt-rendang-b">
+                <span class="opt-emoji">🥩</span>
+                <span>Rendang</span>
+              </button>
+              <button class="step-opt" data-step="lauk" data-val="Ayam Pop" data-emoji="🍗" id="opt-ayam-b">
+                <span class="opt-emoji">🍗</span>
+                <span>Ayam Pop</span>
+              </button>
+              <button class="step-opt" data-step="lauk" data-val="Ayam Bakar" data-emoji="🔥" id="opt-bakar-b">
+                <span class="opt-emoji">🔥</span>
+                <span>Ayam Bakar</span>
+              </button>
+              <button class="step-opt" data-step="lauk" data-val="Udang Balado" data-emoji="🦐" id="opt-udang-b">
+                <span class="opt-emoji">🦐</span>
+                <span>Udang Balado</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 3: Kuah -->
+          <div class="builder-step" id="step-kuah">
+            <div class="step-header">
+              <div class="step-num">3</div>
+              <h3>Pilih Kuah</h3>
+            </div>
+            <div class="step-options">
+              <button class="step-opt" data-step="kuah" data-val="Gulai Tunjang" data-emoji="🍜" id="opt-gulai-b">
+                <span class="opt-emoji">🍜</span>
+                <span>Gulai Tunjang</span>
+              </button>
+              <button class="step-opt" data-step="kuah" data-val="Gulai Nangka" data-emoji="🫕" id="opt-nangka-b">
+                <span class="opt-emoji">🫕</span>
+                <span>Gulai Nangka</span>
+              </button>
+              <button class="step-opt" data-step="kuah" data-val="Tanpa Kuah" data-emoji="✖️" id="opt-nokwah-b">
+                <span class="opt-emoji">✖️</span>
+                <span>Tanpa Kuah</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 4: Sambal -->
+          <div class="builder-step" id="step-sambal">
+            <div class="step-header">
+              <div class="step-num">4</div>
+              <h3>Pilih Sambal</h3>
+            </div>
+            <div class="step-options">
+              <button class="step-opt" data-step="sambal" data-val="Sambal Ijo" data-emoji="🥬" id="opt-ijo-b">
+                <span class="opt-emoji">🥬</span>
+                <span>Sambal Ijo</span>
+              </button>
+              <button class="step-opt" data-step="sambal" data-val="Sambal Merah" data-emoji="🌶️" id="opt-merah-b">
+                <span class="opt-emoji">🌶️</span>
+                <span>Sambal Merah</span>
+              </button>
+              <button class="step-opt" data-step="sambal" data-val="Sambal Balado" data-emoji="🔴" id="opt-balado-b">
+                <span class="opt-emoji">🔴</span>
+                <span>Sambal Balado</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Builder Visual Preview -->
+        <div class="builder-preview" id="builder-preview">
+          <div class="preview-plate">
+            <div class="preview-plate-inner" id="preview-plate-inner">
+              <div class="preview-empty-state" id="preview-empty">
+                <span class="preview-empty-icon">🍽️</span>
+                <p>Pilihanmu akan muncul di sini</p>
+              </div>
+              <div class="preview-items" id="preview-items"></div>
+            </div>
+          </div>
+          <div class="preview-summary" id="preview-summary" style="display:none;">
+            <h4>Rangkuman Bungkusmu:</h4>
+            <div class="summary-list" id="summary-list"></div>
+            <div class="preview-price-row">
+              <span>Estimasi harga:</span>
+              <span class="preview-price" id="preview-price">Rp 0</span>
+            </div>
+            <button class="btn btn-primary btn-full" id="add-builder-cart">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+              Tambah ke Keranjang
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== PAKET BUNDLING ======================== -->
+  <section class="paket-section" id="paket">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-label">— Hemat Lebih Banyak —</span>
+        <h2 class="section-title">Paket <em>Bundling</em> Spesial</h2>
+        <p class="section-desc">Solusi terbaik untuk makan bersama keluarga atau teman kantor. Lebih hemat, lebih puas!</p>
+      </div>
+      <div class="paket-grid">
+        <div class="paket-card" id="paket-duo">
+          <div class="paket-icon">👫</div>
+          <h3>Paket Berdua</h3>
+          <p>2x Nasi + 1 Rendang + 1 Ayam + 2 Sambal + 2 Kerupuk</p>
+          <ul class="paket-list">
+            <li>✅ Cocok untuk makan berdua</li>
+            <li>✅ Gratis minuman 2 pcs</li>
+            <li>✅ Gratis ongkir area kota</li>
+          </ul>
+          <div class="paket-price">
+            <span class="price-old">Rp 120.000</span>
+            <span class="price-main">Rp 95.000</span>
+          </div>
+          <button class="btn btn-outline" id="order-paket-duo">Pesan Paket Ini</button>
+        </div>
+
+        <div class="paket-card paket-featured" id="paket-keluarga">
+          <div class="paket-featured-badge">Paling Diminati</div>
+          <div class="paket-icon">👨‍👩‍👧‍👦</div>
+          <h3>Paket Keluarga</h3>
+          <p>5x Nasi + Rendang + 2 Ayam + Gulai + Sambal + Kerupuk Banyak</p>
+          <ul class="paket-list">
+            <li>✅ Porsi besar untuk 5 orang</li>
+            <li>✅ Gratis minuman 5 pcs</li>
+            <li>✅ Gratis ongkir + prioritas</li>
+            <li>✅ Dapat dessert gratis</li>
+          </ul>
+          <div class="paket-price">
+            <span class="price-old">Rp 350.000</span>
+            <span class="price-main">Rp 269.000</span>
+          </div>
+          <button class="btn btn-primary" id="order-paket-keluarga">Pesan Paket Ini</button>
+        </div>
+
+        <div class="paket-card" id="paket-kantor">
+          <div class="paket-icon">🏢</div>
+          <h3>Paket Kantor</h3>
+          <p>10x Nasi + Beragam lauk + Sambal + Kerupuk dalam box eksklusif</p>
+          <ul class="paket-list">
+            <li>✅ Ideal untuk meeting / acara</li>
+            <li>✅ Box packaging premium</li>
+            <li>✅ Gratis ongkir + prioritas</li>
+          </ul>
+          <div class="paket-price">
+            <span class="price-old">Rp 650.000</span>
+            <span class="price-main">Rp 499.000</span>
+          </div>
+          <button class="btn btn-outline" id="order-paket-kantor">Pesan Paket Ini</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== TESTIMONI ======================== -->
+  <section class="testimoni-section" id="testimoni">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-label">— Kata Mereka —</span>
+        <h2 class="section-title">Pelanggan <em>Bicara</em></h2>
+      </div>
+      <div class="testimoni-grid">
+        <div class="testi-card" id="testi-1">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"Rendangnya juara banget! Empuk, berminyak, harum rempahnya tercium dari kejauhan. Ini yang paling otentik yang pernah saya coba di kota ini."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg,#8B0000,#FF8C00);">AR</div>
+            <div>
+              <strong>Ahmad Rizky</strong>
+              <span>Jakarta Selatan</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card" id="testi-2">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"Fitur 'Rancang Bungkus'nya seru banget! Bisa pilih sendiri sesuai mood. Dan selalu dateng masih hangat. Habis ini mau order lagi."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg,#1a7a4a,#2ecc71);">SN</div>
+            <div>
+              <strong>Sari Novita</strong>
+              <span>Bandung</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card" id="testi-3">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"Paket Kantor kami sudah 3x repeat order. Tim kantor puas semua, tidak ada yang komplain! Packaging bagus, makanan konsisten, harga kompetitif."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg,#1a3a7a,#3498db);">BW</div>
+            <div>
+              <strong>Budi Wibowo</strong>
+              <span>Manager Operasional, Surabaya</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="logo-icon">🍛</span>
+          <span class="logo-text">Padang<span class="logo-accent">Express</span></span>
+        </div>
+        <p>Kehangatan tradisi Minang, kini hadir di depan pintu rumahmu. Dimasak dengan cinta & rempah terbaik.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-btn" id="social-ig" aria-label="Instagram">📸</a>
+          <a href="#" class="social-btn" id="social-wa" aria-label="WhatsApp">💬</a>
+          <a href="#" class="social-btn" id="social-tt" aria-label="TikTok">🎵</a>
+          <a href="#" class="social-btn" id="social-fb" aria-label="Facebook">👍</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="#menu">Menu Utama</a></li>
+          <li><a href="#paket">Paket Bundling</a></li>
+          <li><a href="#builder">Nasi Bungkus Custom</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Informasi</h4>
+        <ul>
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Kebijakan Privasi</a></li>
+          <li><a href="#">Syarat & Ketentuan</a></li>
+          <li><a href="#">Karir</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Kontak & Lokasi</h4>
+        <p>📍 Jl. Sudirman No. 88, Jakarta Pusat</p>
+        <p>📞 (021) 8888-4040</p>
+        <p>✉️ halo@padangexpress.id</p>
+        <p>🕐 Buka: 07.00 – 22.00 WIB</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Padang Express. All rights reserved. Dibuat dengan ❤️ untuk pecinta kuliner Minang.</p>
+    </div>
+  </footer>
+
+  <!-- ======================== MINI CART SIDEBAR ======================== -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-sidebar" id="cart-sidebar" aria-label="Keranjang belanja">
+    <div class="cart-sidebar-header">
+      <h2>🛒 Keranjang Belanja</h2>
+      <button class="cart-close-btn" id="cart-close" aria-label="Tutup keranjang">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="cart-items-container" id="cart-items-container">
+      <div class="cart-empty" id="cart-empty">
+        <span class="cart-empty-icon">🍽️</span>
+        <p>Keranjangmu masih kosong</p>
+        <span>Yuk, pilih menu favorit kamu!</span>
+      </div>
+    </div>
+    <div class="cart-footer" id="cart-footer" style="display:none;">
+      <div class="cart-summary">
+        <div class="cart-row">
+          <span>Subtotal</span>
+          <span id="cart-subtotal">Rp 0</span>
+        </div>
+        <div class="cart-row">
+          <span>Ongkir</span>
+          <span class="cart-free">Gratis</span>
+        </div>
+        <div class="cart-row tips-row">
+          <span>Tip Driver</span>
+          <div class="tips-options">
+            <button class="tip-btn active" data-tip="0" id="tip-0">Tdk ada</button>
+            <button class="tip-btn" data-tip="2000" id="tip-2k">Rp 2K</button>
+            <button class="tip-btn" data-tip="5000" id="tip-5k">Rp 5K</button>
+            <button class="tip-btn" data-tip="10000" id="tip-10k">Rp 10K</button>
+          </div>
+        </div>
+        <div class="cart-divider"></div>
+        <div class="cart-row cart-total-row">
+          <strong>Total</strong>
+          <strong id="cart-total">Rp 0</strong>
+        </div>
+      </div>
+      <button class="btn btn-primary btn-full btn-checkout" id="btn-checkout">
+        Lanjut ke Pembayaran
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Fly-to-cart animation element -->
+  <div class="fly-item" id="fly-item">🍛</div>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast"></div>
+
+  <!-- ======================== PAYMENT MODAL (Multi-Step) ======================== -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal payment-modal" id="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-close" aria-label="Tutup modal">✕</button>
+
+      <!-- STEP INDICATOR -->
+      <div class="payment-steps" id="payment-steps">
+        <div class="pstep active" id="pstep-1">
+          <div class="pstep-dot">1</div>
+          <span>Metode</span>
+        </div>
+        <div class="pstep-line"></div>
+        <div class="pstep" id="pstep-2">
+          <div class="pstep-dot">2</div>
+          <span>Bayar</span>
+        </div>
+        <div class="pstep-line"></div>
+        <div class="pstep" id="pstep-3">
+          <div class="pstep-dot">3</div>
+          <span>Selesai</span>
+        </div>
+      </div>
+
+      <!-- ── STEP 1: Pilih Metode Pembayaran ── -->
+      <div class="modal-step" id="modal-step-1">
+        <h3 id="modal-title" class="modal-step-title">Pilih Metode <em>Pembayaran</em></h3>
+        <div class="payment-total-row">
+          <span>Total Pembayaran</span>
+          <span class="ptotal" id="modal-ptotal">Rp 0</span>
+        </div>
+
+        <div class="pay-methods">
+          <!-- QRIS -->
+          <button class="pay-method-btn" id="pay-qris" data-method="qris">
+            <div class="pay-method-left">
+              <div class="pay-method-logo qris-logo">
+                <img src="qris.jpg" alt="QRIS" class="qris-logo-img" />
+              </div>
+              <div class="pay-method-info">
+                <strong>QRIS</strong>
+                <span>Scan & bayar dari semua e-wallet</span>
+              </div>
+            </div>
+            <div class="pay-method-badge popular">Populer</div>
+            <svg class="pay-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+
+          <!-- Transfer Bank -->
+          <button class="pay-method-btn" id="pay-transfer" data-method="transfer">
+            <div class="pay-method-left">
+              <div class="pay-method-logo bank-logo">🏦</div>
+              <div class="pay-method-info">
+                <strong>Transfer Bank</strong>
+                <span>BCA · BNI · Mandiri · BRI</span>
+              </div>
+            </div>
+            <svg class="pay-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+
+          <!-- COD -->
+          <button class="pay-method-btn" id="pay-cod" data-method="cod">
+            <div class="pay-method-left">
+              <div class="pay-method-logo cod-logo">💵</div>
+              <div class="pay-method-info">
+                <strong>Bayar di Tempat (COD)</strong>
+                <span>Siapkan uang pas saat kurir tiba</span>
+              </div>
+            </div>
+            <svg class="pay-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- ── STEP 2a: QRIS ── -->
+      <div class="modal-step hidden" id="modal-step-qris">
+        <button class="modal-back-btn" id="back-from-qris">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          Kembali
+        </button>
+        <div class="qris-header">
+          <h3 class="modal-step-title">Scan <em>QRIS</em> untuk Bayar</h3>
+          <p class="qris-subtitle">Buka aplikasi dompet digitalmu, pilih Scan QR</p>
+        </div>
+
+        <div class="qris-card">
+          <div class="qris-merchant">
+            <div class="qris-merchant-name">DIMAS ANDREAN, DIGITAL & KREATIF</div>
+            <div class="qris-merchant-id">NMID: ID1026492896893</div>
+          </div>
+          <div class="qris-img-wrapper">
+            <img src="qris.jpg" alt="QRIS Code Padang Express" class="qris-full-img" id="qris-img" />
+            <div class="qris-shimmer" id="qris-shimmer"></div>
+          </div>
+          <div class="qris-amount-row">
+            <span>Total Bayar:</span>
+            <strong class="qris-amount" id="qris-amount">Rp 0</strong>
+          </div>
+          <div class="qris-countdown-row">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>QR aktif selama: <strong id="qris-timer">05:00</strong></span>
+          </div>
+          <div class="qris-apps">
+            <span class="qris-app">GoPay</span>
+            <span class="qris-app">OVO</span>
+            <span class="qris-app">DANA</span>
+            <span class="qris-app">ShopeePay</span>
+            <span class="qris-app">LinkAja</span>
+            <span class="qris-app">m-Banking</span>
+          </div>
+        </div>
+
+        <button class="btn btn-primary btn-full" id="btn-confirm-qris">
+          ✅ Konfirmasi Pembayaran
+        </button>
+        <p class="qris-note">Tekan tombol setelah scan & bayar berhasil</p>
+      </div>
+
+      <!-- ── STEP 2b: Transfer Bank ── -->
+      <div class="modal-step hidden" id="modal-step-transfer">
+        <button class="modal-back-btn" id="back-from-transfer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          Kembali
+        </button>
+        <h3 class="modal-step-title">Transfer <em>Bank</em></h3>
+        <div class="transfer-cards">
+          <div class="transfer-bank-card" id="bank-bca">
+            <div class="bank-logo-wrap" style="background:#003087;">BCA</div>
+            <div class="bank-info">
+              <span class="bank-name">Bank BCA</span>
+              <span class="bank-an">a.n. Padang Express</span>
+              <div class="bank-norek-row">
+                <span class="bank-norek" id="norek-bca">8080 1234 5678</span>
+                <button class="copy-btn" data-copy="8080 1234 5678" id="copy-bca">Salin</button>
+              </div>
+            </div>
+          </div>
+          <div class="transfer-bank-card" id="bank-mandiri">
+            <div class="bank-logo-wrap" style="background:#003399;">MDR</div>
+            <div class="bank-info">
+              <span class="bank-name">Bank Mandiri</span>
+              <span class="bank-an">a.n. Padang Express</span>
+              <div class="bank-norek-row">
+                <span class="bank-norek" id="norek-mandiri">1400 0088 8899</span>
+                <button class="copy-btn" data-copy="1400 0088 8899" id="copy-mandiri">Salin</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="transfer-total">
+          <span>Jumlah transfer:</span>
+          <strong id="transfer-amount">Rp 0</strong>
+        </div>
+        <button class="btn btn-primary btn-full" id="btn-confirm-transfer">✅ Saya Sudah Transfer</button>
+      </div>
+
+      <!-- ── STEP 2c: COD ── -->
+      <div class="modal-step hidden" id="modal-step-cod">
+        <button class="modal-back-btn" id="back-from-cod">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          Kembali
+        </button>
+        <div class="cod-icon">💵</div>
+        <h3 class="modal-step-title">Bayar di <em>Tempat</em></h3>
+        <div class="cod-info-box">
+          <p>Siapkan uang pas sebesar:</p>
+          <div class="cod-amount" id="cod-amount">Rp 0</div>
+          <ul class="cod-tips">
+            <li>💡 Siapkan uang sebelum kurir tiba</li>
+            <li>📦 Cek pesanan sebelum membayar</li>
+            <li>🧾 Minta struk dari kurir</li>
+          </ul>
+        </div>
+        <button class="btn btn-primary btn-full" id="btn-confirm-cod">✅ Konfirmasi Pesanan</button>
+      </div>
+
+      <!-- ── STEP 3: Sukses ── -->
+      <div class="modal-step hidden" id="modal-step-success">
+        <div class="success-anim">
+          <div class="success-circle">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+        </div>
+        <h3 class="modal-step-title">Pesanan <em>Diterima!</em></h3>
+        <p class="success-desc">Pesananmu sedang diproses oleh dapur kami. Estimasi pengiriman <strong>25–30 menit</strong>. Terima kasih! 🍛</p>
+        <div class="success-detail-row">
+          <div class="success-detail">
+            <span class="sd-label">No. Pesanan</span>
+            <span class="sd-val" id="order-number">#PX-001234</span>
+          </div>
+          <div class="success-detail">
+            <span class="sd-label">Metode Bayar</span>
+            <span class="sd-val" id="success-method">QRIS</span>
+          </div>
+          <div class="success-detail">
+            <span class="sd-label">Total</span>
+            <span class="sd-val" id="success-total">Rp 0</span>
+          </div>
+        </div>
+        <button class="btn btn-primary btn-full" id="modal-ok">Kembali ke Menu</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
